@@ -1,0 +1,47 @@
+{
+  "name": "ghost-comments",
+  "displayName": "Ghost Comments",
+  "description": "Instantly hide comments to focus on code.",
+  "version": "0.0.1",
+  "publisher": "Pucci17PinkerZ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pucci17PinkerZ/ghost-comments.git"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "ghost-comments.toggle",
+        "title": "Toggle Ghost Comments"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "ghost-comments.toggle",
+        "key": "shift+f5",
+        "mac": "shift+f5",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "16.x",
+    "typescript": "^5.1.3"
+  }
+}
