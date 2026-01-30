@@ -17,8 +17,23 @@
 
 ## 🚀 Installation
 
-### ⚡ Quick Install (Command Line)
-Simply run this command in your terminal to install the extension directly:
 
+Since the extension is still in development (and not yet on the Marketplace), here are the two easiest ways to get it:
+
+### 🚀 Option 1: The "Flash" Method (Recommended)
+If you are comfortable with the terminal, simply copy-paste the following command to automatically download and install the latest version:
+
+#### Linux / macOS
 ```bash
-code --install-extension ghost-comments-0.0.1.vsix
+curl -L -o ghost-comments.vsix [https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix](https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix)
+code --install-extension ghost-comments.vsix
+rm ghost-comments.vsix
+
+</details>
+
+<details> <summary><strong>🪟 Voir la commande pour Windows
+
+Invoke-WebRequest -Uri "[https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix](https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix)" -OutFile "ghost-comments.vsix"
+code --install-extension ghost-comments.vsix
+Remove-Item ghost-comments.vsix
+</strong></summary>
