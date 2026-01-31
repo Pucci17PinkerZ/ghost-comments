@@ -32,8 +32,7 @@ rm ghost-comments.vsix
 </details>
 
 <details> <summary><strong>🪟 Voir la commande pour Windows
-
+</strong></summary>
 Invoke-WebRequest -Uri "[https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix](https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix)" -OutFile "ghost-comments.vsix"
 code --install-extension ghost-comments.vsix
 Remove-Item ghost-comments.vsix
-</strong></summary>
