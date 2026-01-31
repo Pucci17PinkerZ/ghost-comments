@@ -27,12 +27,12 @@ If you are comfortable with the terminal, simply copy-paste the following comman
 ```bash
 curl -L -o ghost-comments.vsix [https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix](https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix)
 code --install-extension ghost-comments.vsix
-rm ghost-comments.vsix
+rm ghost-comments.vsix 
+'''
 
-</details>
-
-<details> <summary><strong>🪟 Voir la commande pour Windows
-</strong></summary>
+#### Windows
+```bash
 Invoke-WebRequest -Uri "[https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix](https://github.com/Pucci17PinkerZ/ghost-comments/releases/latest/download/ghost-comments-0.0.1.vsix)" -OutFile "ghost-comments.vsix"
 code --install-extension ghost-comments.vsix
 Remove-Item ghost-comments.vsix
+'''
