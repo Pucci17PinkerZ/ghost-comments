@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Editor](https://img.shields.io/badge/VS%20Code-007ACC?logo=visual-studio-code&logoColor=white)
 
-**Ghost Comments** is an ultra-lightweight VS Code extension designed to reduce visual noise in your code. It allows you to make comments invisible (or transparent) instantly via a keyboard shortcut, letting you focus on the pure logic of the code.
+**Ghost Comments** is an ultra-lightweight VS Code extension designed to reduce visual noise in your code. It allows you to make comments invisible (or transparent) instantly via a keyboard shortcut (SHIFT + F5), letting you focus on the pure logic of the code.
 
 > "Love comments but hate how they pollute your code?" — Ghost Comments is the solution.
 
